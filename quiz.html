@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INTERNSHIP </title>
+    <link rel="stylesheet" href="quiz1.css" />
+</head>
+<body>
+    <div class="box1"> 
+    <h1>Internship Form</h1>
+    <h2>Third Year Cyber Security</h2>
+    <h3>Arunai Engineering College</h3>
+   
+    <div class ="box">
+        <div class="button" :hover>
+        <h4>Student Details</h4>
 
+<form id="internshipForm" action="http://localhost:3000/submit" method="POST" enctype="multipart/form-data">
+  <table>
+    <tr>
+      <td><label for="name">Name</label></td>
+      <td><input type="text" class="input" name="name" placeholder="Enter your name" required></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><input type="email" class="input" name="email" placeholder="Enter your email" required></td>
+    </tr>
+    <tr>
+      <td>Phone Number</td>
+      <td><input type="number" class="input" name="phone" placeholder="Enter your number" required></td>
+    </tr>
+    <tr>
+      <td>LinkedIn profile</td>
+      <td><input type="url" class="input" name="linkedin" placeholder="Enter your profile" required></td>
+    </tr>
+    <tr>
+      <td>GitHub profile</td>
+      <td><input type="url" class="input" name="github" placeholder="Enter your profile" required></td>
+    </tr>
+    <tr>
+      <td>Domain</td>
+      <td>
+        <select name="domain" required>
+          <option value="">--Select--</option>
+          <option>Frontend</option>
+          <option>Backend</option>
+          <option>Full Stack Development</option>
+          <option>Cyber Security</option>
+          <option>Network security</option>
+          <option>Data Analyst</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Resume Update</td>
+      <td><input type="file" class="input" name="resume" required></td>
+    </tr>
+    <tr>
+      <td>Payment Details</td>
+      <td>
+        <select name="payment" required>
+          <option value="">--Select--</option>
+          <option>with stipend</option>
+          <option>without stipend</option>
+          <option>paid</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><button type="reset" id="Reset">Reset</button></td>
+      <td><button type="submit" id="submit">Submit</button></td>
+    </tr>
+  </table>
+</form>
+
+</div>
+</div>
+    </div>
+</body>
+
+</html>
