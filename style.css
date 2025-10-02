@@ -1,0 +1,87 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1{
+        background-image: url('https://th.bing.com/th/id/OIP.rUuNP6UAeUoZmR5EYmtg-wHaFT?r=0&pid=ImgDet&w=172&h=123&c=7&dpr=1.1');
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        min-height: 100px;
+        color: rgb(8, 19, 12);
+
+    }
+    .box{
+        background-color: transparent;
+        border-radius: 20px;
+        padding: 20px;
+        max-width:600px;
+        margin: auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        
+}
+h1,h2,h3,h4{
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 8px;
+    vertical-align: top;
+}
+input, select{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+    .button:hover {
+    background-color:rgb(105, 200, 226);
+    background-size: cover;
+    color: rgb(19, 14, 14);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 20px;
+    max-width:600px;
+    margin: auto;
+    }
+    button{
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+    }
+    #submit{
+        background-color: #28a745;
+        color: white;
+    }
+    #Reset{
+        background-color: #dc3545;
+        color: white;
+    }
+    @media screen and (max-width: 768px){
+        .box{
+            width: 95%;
+        }
+        table, td{
+            display: block;
+            width: 100%;
+
+        }
+        td{
+            margin-bottom: 10px;
+
+        }
+    }
+     
+    
+
+        
+    
+    
+    
+    
